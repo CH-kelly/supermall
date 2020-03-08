@@ -25,7 +25,7 @@
 
 <style scoped>
   .goods-lists {
-    padding: 3px;
+    padding: 2px;
     display: flex;
     flex-flow: wrap;
 

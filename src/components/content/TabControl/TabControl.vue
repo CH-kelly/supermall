@@ -28,7 +28,9 @@
     },
     methods: {
       tabClick(index) {
-        this.currentIndex = index
+        this.currentIndex = index;
+        //向父级提交方法
+        this.$emit('TabControl',index)
       }
     }
   }
